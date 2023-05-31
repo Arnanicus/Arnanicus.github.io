@@ -1,3 +1,10 @@
+/* 
+
+All of the HTML files are in this one CSS file, though each have been divded to their own sections
+using comments as well.
+
+*/
+
 html, body{
     margin: 0;
     overflow-x: hidden;
