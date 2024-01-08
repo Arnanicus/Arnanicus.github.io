@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUJI Japanese Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Outfit:wght@300;400;500;700&family=Philosopher&family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script defer src="webjs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body>
+
+    <section class="header">
+
+        <div class="logo">
+            <img src="images/Logo.png">
+        </div>
+
+        <div class="navbar">
+
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            
+        </div>
+
+    </section>
+
+    <section class="landing">
+
+        <div class="landingimg">
+        <img class="hidden" src="images/landingimg.png">
+        </div>
+
+        <div class="landingtxt">
+        <h1 class="hidden">TASTE THE ARTISTRY</h1>
+        <h2 class="hidden">FUJI’s Japanese Cuisine, <br>Redefined.</h2>
+        </div>
+      
+    </section>
+
+    <div class="separator"></div>
+
+    <h1 class="headertxt">
+        SIGNATURE DISHES
+    </h1>
+
+    <section class="sigdishes"> <!--This section's code was inspired by Laravel Article on Youtube: https://www.youtube.com/watch?v=2_E5uoiLCLY&list=LL&index=9&t=102s -->
+
+        <div class="imgslider-wrapper"> 
+
+            <div class="imgslider">
+                <img src="images/sigdish1.png">
+                <img src="images/sigdish2.png">
+                <img src="images/sigdish3.png">
+                <img src="images/sigdish4.png">
+                <img src="images/sigdish5.png">
+            </div>
+
+        </div>
+
+        <h2>Indulge in FUJI's signature collection.</h2>
+
+        <h3>Savor the unparalleled freshness and explosive 
+            flavors of our<br> signature dishes, a harmonious
+             blend of artful presentation and <br>bold flavors.</h3>
+
+    </section>
+
+
+    <div class="separator"></div>
+
+    
+    <h1 class="headertxt">
+        OUR MENU
+    </h1>
+
+    <section class="menu">
+
+
+            <img class="bg" src="images/menubg.png">
+
+            <img class="fg" src="images/menuimg.png">
+
+
+        <div class="menutext">
+            <h1>
+                Over 150 items, fresh and exquisite.
+            </h1>
+
+            <h3>
+                At FUJI, our menu features modern interpretations of Japanese
+                 classics, with a focus on quality and innovation. <br><br>
+
+                Every main course is a celebration of flavor and presentation.
+            </h3>
+
+            <h2 class="menulink">
+                EXPLORE THE MENU
+            </h2>
+        </div>
+
+    </section>
+
+
+    <div class="separator"></div>
+
+
+    <section class="dinexp"> <!-- This section was repurposed from a previous project I developed. -->
+
+        <h1 class="headertxt">
+            THE DINING EXPERIENCE
+        </h1>
+
+    <div class="dineimgs"> 
+
+        <div class="imgcontainer">
+
+            <div class="imgtext">
+
+                <h1>Exquisite Cuisine</h1>
+
+                <p>
+                    Fresh, exquisite ingredients converge in a seamless fusion of traditional Japanese and modern innovation.
+                </p>
+
+             </div>
+
+            <img src="images/diningimg1.png">
+        </div>
+        
+        <div class="imgcontainer">
+
+            <div class="imgtext">
+                <h1>Modern Elegance</h1>
+                <p>Modern aesthetics blend seamlessly with Japanese design, creating a tranquil dining atmosphere.</p>
+            </div>
+
+            <img src="images/diningimg2.png">
+        </div>
+        
+        <div class="imgcontainer">
+
+            <div class="imgtext">
+                <h1>Excellent Service</h1>
+                <p>Impeccable service ensures a seamless and personalized dining experience at every visit.</p>
+            </div>
+
+            <img src="images/diningimg3.png">
+        </div>
+
+
+    </div>
+
+    </section>
+
+
+    <div class="separator"></div>
+
+
+    <section class="resv">
+
+        <div class="resvcont">
+
+            <div class="resvtext">
+
+                <h1>DO YOU WANT TO DINE?</h1>
+
+            </div>
+
+            <div class="resvbtn">
+
+                <h2>BOOK A TABLE NOW</h2>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">  <!-- This section was also repuposed from a previous project I developed. -->
+
+
+            <h4>About Us</h4> 
+            <p> Welcome to FUJI, a culinary haven where the authentic flavors of Japan come alive.
+             Our restaurant is dedicated to<br>serving authentic and mouthwatering Japanese
+            cuisine that captures the essence of this remarkable culinary tradition. </p>
+    
+            <hr>
+    
+            <h4>Follow Our Socials</h4> 
+            <a class="socmedicon">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+    
+            <a class="socmedicon">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+    
+            <a class="socmedicon">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+    
+            <a class="socmedicon">
+                <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+    
+            <a class="socmedicon">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+    
+        
+    </section>
+
+    
+</body>
+</html>
